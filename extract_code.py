@@ -60,7 +60,7 @@ def procesar_excel(archivo_excel):
     df_final = pd.DataFrame(todos_los_registros, columns=columnas)
     
     df_final.to_csv("resultado_extintores_general.csv", index=False)
-    print("Archivo CSV generado: resultado_extintores_general.csv")
+    print("Archivo CSV generado: resultado_extintores_gnral.csv")
 
 archivo_excel = 'cofrai_data_challenge.xlsx'
 procesar_excel(archivo_excel)
