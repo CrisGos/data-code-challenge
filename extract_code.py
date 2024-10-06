@@ -62,5 +62,5 @@ def procesar_excel(archivo_excel):
     df_final.to_csv("resultado_extintores_general.csv", index=False)
     print("Archivo CSV generado: resultado_extintores_gnral.csv")
 
-archivo_excel = 'cofrai_data_challenge.xlsx'
+archivo_excel = 'cofrai_data_challenge_result.xlsx'
 procesar_excel(archivo_excel)
